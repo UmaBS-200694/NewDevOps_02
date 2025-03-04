@@ -9,8 +9,8 @@ public class NewDevOps02 {
   i2=30;
   addTion();
   SubtracTion();
-  DiviSion();
-
+  DiviSion(); // Devision function
+ Multiply(); // 7901540 (Multiply function)
 	}
 	public static void addTion() {
 		
@@ -23,10 +23,18 @@ public static void SubtracTion() {
 		int sub=i1-i2;
 		System.out.println("Subtraction of two numbers: " + sub );
 	}
+
 	public static void DiviSion() {
 		
 		int Div=i1/i2;
 		System.out.println("Devision of two numbers: " + Div );
 	}
+
+public static void Multiply() {
+	
+	int mul=i1*i2;
+	System.out.println("Subtraction of two numbers: " + mul );
+}
+
 
 }
