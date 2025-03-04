@@ -9,6 +9,7 @@ public class NewDevOps02 {
   i2=30;
   addTion();
   SubtracTion();
+  DiviSion();
 
 	}
 	public static void addTion() {
@@ -19,8 +20,13 @@ public class NewDevOps02 {
 
 public static void SubtracTion() {
 		
-		int sub=i1+i2;
+		int sub=i1-i2;
 		System.out.println("Subtraction of two numbers: " + sub );
+	}
+	public static void DiviSion() {
+		
+		int Div=i1/i2;
+		System.out.println("Devision of two numbers: " + Div );
 	}
 
 }
